@@ -23,7 +23,7 @@ int main()
 	donation* record = new donation[count];
 	for (int i = 0; i < count; ++i)
 	{
-		getline(inFile, (record+i)->name);
+		getline(inFile, (record+i)->name);	//这里不能用get，否则读取到空格就停止了。
 		inFile>>(record+i)->money;
 		inFile.get();
 	}
