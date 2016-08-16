@@ -10,5 +10,5 @@ int main()
 	cin >> ht_inch;
 	double ht_feet =  ht_inch/Inch_per_feet;
 	cout << "your height is  " << ht_feet << endl;
-	return 0; 
-} 
+	return 0;
+}
